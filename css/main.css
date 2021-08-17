@@ -1,10 +1,10 @@
 .main {
-    position: relative;
-    
+    position: relative; /*위칫값을 지정할 수 있다*/
+    top:0;
     background: #f8f9fa;
 }
-.main .container {
-    display: flex;
+.main .container2 {
+    display: flex; 
     max-width: 1066px;
     margin: 0 auto;
     padding: 80px;
@@ -46,6 +46,9 @@
 
 .feed_box img {
     width: 100%;
+}
+.inputlocation{
+    width: 400px;
 }
 
 .feed_info {
@@ -115,7 +118,7 @@
     width: 100%;
     height: 100%;
     padding: 0 10px;
-    box-sizing: border-box;
+    box-sizing: border-box; /*박스의 크기를 테두리를 기준으로 정한다*/
     border: 1px solid #dbdbdb;
     border-left: none;
     border-right: none;
@@ -137,9 +140,8 @@
 
 
 /*오른쪽*/
-.main .container .contents_right {
-    /* position: fixed;
-    left: calc(100% - 712px);  */
+.main .container2 .contents_right {
+
     width: 383px;
     box-sizing: border-box;
 
@@ -155,25 +157,15 @@
 }
 .contents_right .aside .pofile_info .profile_intro {
     width: 150px;
-    overflow:hidden;
-    text-overflow:ellipsis;
+    overflow:hidden; /*넘친 컨텐츠는 잘려지고 보여지지 않습니다.*/
+    text-overflow:ellipsis; /*글자가 넓이 150px를 넘을 경우 생략부호를 표시함*/
     white-space:nowrap;
     font-size: 12px;
     color: #8b8b8b;
 }
+.recommend_box {
+    border-radius: 10px;
+}
 
-.follow_info.follow_story {
-    padding-right: 0;
-}
-.follow_info.follow_story .follow_title span.sub_tit {
-    padding-right: 13px;
-}
-.follow_info.follow_story .profile_img {
-    border: 3px solid #fa5252;
-}
-.follow_btn .btn span {
-    font-size: 13px;
-    font-weight: bold;
-    color: #1c7ed6;
-}
+
 
