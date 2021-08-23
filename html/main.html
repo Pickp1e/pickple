@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/myprofile.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id = "header">
+        <a href="..\html\main.html" style="text-decoration-line: none;"><img id="logo" src = "..\image\logo.png" ></a>
+        <input id="search" autocapitalize="none" placeholder="검색" type="text" value="">
+        <a href="..\html\myprofile.html"><img id="profile_img" src = "..\image\profile.png" ></a>
+    </header>
+
+    <div class="main">
+        <div class="container2">
+            <div class="contents_left">
+                <div class="inner">
+                    <ul class="feeds_list">
+                        <li class="feeds_list_li">
+                            <div class="feed_profile">
+                                <div class="profile">
+                                    <img src="../image/profile.png" alt="profile"  class="profile_img">
+                                    <p class="profile_id"><a href="../html/myprofile.html">jh_kk99</a></p>
+                                </div>
+                                <div class="profile_add link_list">
+                                    <button type="button" class="state_btn">
+                                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="feed_box">
+                                <img src="../image/profile.png" alt="main">
+                            </div>
+                            <div class="feed_info">
+                                <section>
+                                    <span>
+                                        <input class ="inputlocation" type="text"  placeholder="장소를 검색하세요">
+                                        <input type="submit" value="장소팔로우">
+                                    </span>
+                                </section>
+                                <div>
+                                    <ul class="link_list" style="padding-left: 0px;">
+                                        <li>
+                                            <button type="button" class="state_btn">
+                                                <img src="../image/pick.png" alt="pick_img" class="pick_img">
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="state_btn">
+                                                <img src="../image/comment.png" alt="comment_img" class="comment_img">
+                                            </button>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="feed_comments">
+                                    <div class="feed_likes comment_margin">
+                                        <div class="likes_user profile">
+                                            <img src="../image/profile.png" class="profile_img" alt="comment_imge">
+                                        </div>
+                                        <div class="comments_info">
+                                            <p class="comments_tit">
+                                                <span class="user_id">jh_kk99</span>님<span>외<span class="likes_number">10명</span></span>이 좋아합니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="comments_list comments_margin">
+                                        <ul class="comments_tit">
+                                            <li>
+                                            <span class="user_id">jh_kk99</span>
+                                            <span class="comments_cotents">안녕하세요</span>
+                                            </li>
+                                        </ul>
+                                        <div>
+                                            <a href=""><span>댓글 17개 모두보기</span></a>
+                                    
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <form action="" class="comments_form">
+                                <div class="input_box">
+                                    <input type="text" placeholder="댓글 달기..." id="comment_input">
+                                </div>
+                                <div class="button_box">
+                                    <button type="button" class="btn" disabled="disalbed"> 
+                                        <span class="">게시</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contents_right">
+                <!-- aside -->
+                <aside class="aside">
+                    <ul class="feeds_list">
+                        <li class="feeds_list_li">
+                            <div class="feed_profile">
+                                <div class="profile">
+                                    <img src="../image/profile.png" alt="profile"  class="profile_img">
+                                    <p class="profile_id"><a href="../html/myprofile.html">jh_kk99</a></p>
+                                </div>
+                                <div class="button_box">
+                                    <button type="button" class="btn" disabled="disalbed">
+                                        <span class="">게시</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="feeds_list_li">
+                        <div class="feed_profile">
+                            
+                            <div class="button_box recommend_box">
+                                <a href="../html/recommend.html">다른 멋진 스팟들도 추천해드려요~</a>
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+
+                           
+                </aside>
+    </div>
+</body>
+</html>
