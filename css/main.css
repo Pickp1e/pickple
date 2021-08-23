@@ -1,0 +1,171 @@
+.main {
+    position: relative; /*위칫값을 지정할 수 있다*/
+    top:0;
+    background: #f8f9fa;
+}
+.main .container2 {
+    display: flex; 
+    max-width: 1066px;
+    margin: 0 auto;
+    padding: 80px;
+}
+.contents_left {
+    width: 650px;
+    box-sizing: border-box;
+    margin-right: 40px;
+}
+.contents_left .inner {
+    position: relative;
+}
+.feeds_list .feeds_list_li {
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background: #fff;
+}
+.feeds_list .feeds_list_li:last-child {
+    margin: 0;
+}
+
+.feed_profile .profile p {
+    line-height: 1.4;
+}
+
+.feed_profile .profile .profile_id {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+.feed_box {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.feed_box img {
+    width: 100%;
+}
+.inputlocation{
+    width: 400px;
+}
+
+.feed_info {
+    position: relative;
+    padding: 10px 20px;
+}
+
+
+.feed_info .feed_state {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.feed_comments .feed_likes {
+    display: flex;
+    align-items: center;
+}
+
+.feed_comments .comments_margin {
+    margin-bottom: 10px;
+    
+}
+.comments_tit {
+    padding-left: 0px;
+}
+
+.feed_comments .feed_likes .likes_user.profile .profile_img {
+    width: 30px;
+    margin-right: 5px;
+    
+}
+.feed_comments .comment_list .comments_info li {
+    margin-bottom: 3px;
+}
+.comments_info .comments_tit {
+    font-size: 15px;
+    line-height: 1.4;
+}
+.comments_info .comments_tit .user_id {
+    font-weight: bold;
+}
+.comments_info .comments_tit .comment_contents {
+    padding-left: 5px;
+}
+.feed_comments .comment_list .feed_time {
+    line-height: 1.4;
+}
+.feed_comments .comment_list .feed_time .time {
+    font-size: 13px;
+    color: #adb5bd;
+}
+.comment_img {
+    width: 30px;
+    height: 30px;
+}
+.comments_form {
+    position: relative;
+}
+.comments_form .input_box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+}
+.comments_form .input_box input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    box-sizing: border-box; /*박스의 크기를 테두리를 기준으로 정한다*/
+    border: 1px solid #dbdbdb;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    font-size: 15px;
+}
+.comments_form .button_box {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+.comments_form .button_box .btn {
+    border: 1px solid;
+}
+.comments_form .button_box .btn span {
+    font-size: 15px;
+    color: #253cc0;
+}
+
+
+/*오른쪽*/
+.main .container2 .contents_right {
+
+    width: 383px;
+    box-sizing: border-box;
+
+}
+.contents_right .aside .aside_profile {
+    padding: 10px 0;
+}
+.contents_right .aside .aside_profileprofile .profile_img {
+    width: 50px;
+}
+.contents_right .aside .pofile_info {
+    flex: 1;
+}
+.contents_right .aside .pofile_info .profile_intro {
+    width: 150px;
+    overflow:hidden; /*넘친 컨텐츠는 잘려지고 보여지지 않습니다.*/
+    text-overflow:ellipsis; /*글자가 넓이 150px를 넘을 경우 생략부호를 표시함*/
+    white-space:nowrap;
+    font-size: 12px;
+    color: #8b8b8b;
+}
+.recommend_box {
+    border-radius: 10px;
+}
+
+
+
